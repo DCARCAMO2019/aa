@@ -48,95 +48,95 @@ Contiene toda la información
 
 - votes: (TYPE object)
 
-  - current_page: (TYPE int)
+- current_page: (TYPE int)
 
 Página que se está consultando la data.
 
-  - Data: (TYPE array)
+- Data: (TYPE array)
 
 Contiene la data de los votos y cada registro muestra la siguiente información.
 
-    - campaign_name  (TYPE string)
+- campaign_name  (TYPE string)
 
 Nombre de la campana.
 
-    - store_name  (TYPE string)
+- store_name  (TYPE string)
 
 Nombre de la sucursal.
 
-    - poll_name  (TYPE string)
+- poll_name  (TYPE string)
 
 Nombre de la encuesta.
 
-    - campaign_data  (TYPE string)
+- campaign_data  (TYPE string)
 
 Información adicional de la campana.
 
-    - form_data  (TYPE string)
+- form_data  (TYPE string)
 
 Información adicional de datos completados por el usuario.
 
-    - created_at (TYPE string)
+- created_at (TYPE string)
 
 Fecha de la respuesta.
 
-    - contact_data (TYPE object)
+- contact_data (TYPE object)
 
 Información adicional del usuario.
 
-    - user_context (TYPE object)
+- user_context (TYPE object)
 
 Información acerca del entorno en el que contestó el usuario
 
-    - questions (TYPE array)
+- questions (TYPE array)
 
 Contiene cada pregunta con sus resultados.
 
-    - name (TYPE string)
+- name (TYPE string)
 
 Nombre de la pregunta.
 
-vote (TYPE string/ int)
+- vote (TYPE string/ int)
 
 Voto.
 
-motives (TYPE array)
+- motives (TYPE array)
 
 Contiene los motivos de la respuesta.
 
-motive (TYPE string) 
+- motive (TYPE string) 
 
 Nombre del motivo.
 
-comment (TYPE string)
+- comment (TYPE string)
 
 Comentario del motivo.
 
-comment (TYPE string)
+- comment (TYPE string)
 
 Comentario de la pregunta.
 
-total (TYPE int)
+- total (TYPE int)
 
 Total de registros en el rango de fecha consultado.
 
-per_page (TYPE int)
+- per_page (TYPE int)
 
 Cantidad de registros por página.
 
-path (TYPE int)
+- path (TYPE int)
 
 Url con la que se consultó la data.
 
-last_page (TYPE int)
+- last_page (TYPE int)
 
 Número de la última página que posee data.
 
-first_page_url (TYPE int)
+- first_page_url (TYPE int)
 
 Url para consultar la información de la primera página
 
-last_page_url (TYPE int)
+- last_page_url (TYPE int)
 
 Url para consultar la información de la última página
 
