@@ -8,35 +8,35 @@ Devuelve información detallada acerca del feedback recibido dentro de un period
 
 ### Date Parameters:
 
-#timezone: (TYPE string)
+- timezone: (TYPE string)
 
 Zona horaria en la que estas. Ejemplo: “-03:00”
 
-- Default: UTC-0
+Default: UTC-0
 
-. startDate: (TYPE string)
+- startDate: (TYPE string)
 
 Determina la fecha de inicio a partir de la cual quiero extraer la información con el formato YYYY-MM-DD HH:MM:SS . Ejemplo: “2021-08-01T00:00:00.000”
 
-_ endDate: (TYPE string)
+- endDate: (TYPE string)
 
 Determina la fecha de fin a partir de la cual quiero extraer la información con el formato YYYY-MM-DD HH:MM:SS . Ejemplo: “2021-08-31T00:00:00.000”
 
 En caso de no ingresar los parámetros startDate y endDate, se mostrará información de los últimos 7 días.
 
-Pagination Parameters:
+### Pagination Parameters:
 
-per_page: (TYPE int)
+- per_page: (TYPE int)
 
 Cantidad de registros por página. Ejemplo: 100
 
-page: (TYPE int)
+- page: (TYPE int)
 
 Número de la página que se quiere consultar. Ejemplo: 1
 
-Headers:
+## Headers:
 
-Authorization: (Bearer token)
+- Authorization: (Bearer token)
 
 Token válido y sin expirar suministrado por el administrador de la cuenta.
 
@@ -46,17 +46,17 @@ HTTP Status 200
 
 Contiene toda la información
 
-### votes: (TYPE object)
+- votes: (TYPE object)
 
-current_page: (TYPE int)
+-- current_page: (TYPE int)
 
 Página que se está consultando la data.
 
-Data: (TYPE array)
+-- Data: (TYPE array)
 
 Contiene la data de los votos y cada registro muestra la siguiente información.
 
-campaign_name  (TYPE string)
+- campaign_name  (TYPE string)
 
 Nombre de la campana.
 
