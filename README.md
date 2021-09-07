@@ -92,7 +92,7 @@ Información acerca del entorno en el que contestó el usuario
 
 Contiene cada pregunta con sus resultados.
 
-      - name (TYPE string)
+    - name (TYPE string)
 
 Nombre de la pregunta.
 
