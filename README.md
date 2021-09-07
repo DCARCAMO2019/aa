@@ -7,17 +7,18 @@ Devuelve información detallada acerca del feedback recibido dentro de un period
 ## Query Params
 
 ### Date Parameters:
-timezone: (TYPE string)
+
+#timezone: (TYPE string)
 
 Zona horaria en la que estas. Ejemplo: “-03:00”
 
-Default: UTC-0
+- Default: UTC-0
 
-startDate: (TYPE string)
+. startDate: (TYPE string)
 
 Determina la fecha de inicio a partir de la cual quiero extraer la información con el formato YYYY-MM-DD HH:MM:SS . Ejemplo: “2021-08-01T00:00:00.000”
 
-endDate: (TYPE string)
+_ endDate: (TYPE string)
 
 Determina la fecha de fin a partir de la cual quiero extraer la información con el formato YYYY-MM-DD HH:MM:SS . Ejemplo: “2021-08-31T00:00:00.000”
 
