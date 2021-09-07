@@ -48,7 +48,7 @@ Contiene toda la información
 
 - votes: (TYPE object)
 
-- - current_page: (TYPE int)
+  - current_page: (TYPE int)
 
 Página que se está consultando la data.
 
