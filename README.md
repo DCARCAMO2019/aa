@@ -48,7 +48,7 @@ Contiene toda la información
 
 - votes: (TYPE object)
 
--- current_page: (TYPE int)
+- - current_page: (TYPE int)
 
 Página que se está consultando la data.
 
@@ -56,11 +56,11 @@ Página que se está consultando la data.
 
 Contiene la data de los votos y cada registro muestra la siguiente información.
 
-- campaign_name  (TYPE string)
+- - - campaign_name  (TYPE string)
 
 Nombre de la campana.
 
-store_name  (TYPE string)
+- - - store_name  (TYPE string)
 
 Nombre de la sucursal.
 
