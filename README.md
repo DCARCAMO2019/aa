@@ -52,7 +52,7 @@ Contiene toda la información
 
 Página que se está consultando la data.
 
--- Data: (TYPE array)
+- - Data: (TYPE array)
 
 Contiene la data de los votos y cada registro muestra la siguiente información.
 
