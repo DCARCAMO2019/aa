@@ -52,47 +52,47 @@ Contiene toda la información
 
 Página que se está consultando la data.
 
-- - Data: (TYPE array)
+  - Data: (TYPE array)
 
 Contiene la data de los votos y cada registro muestra la siguiente información.
 
-- - - campaign_name  (TYPE string)
+    - campaign_name  (TYPE string)
 
 Nombre de la campana.
 
-- - - store_name  (TYPE string)
+    - store_name  (TYPE string)
 
 Nombre de la sucursal.
 
-poll_name  (TYPE string)
+    - poll_name  (TYPE string)
 
 Nombre de la encuesta.
 
-campaign_data  (TYPE string)
+    - campaign_data  (TYPE string)
 
 Información adicional de la campana.
 
-form_data  (TYPE string)
+    - form_data  (TYPE string)
 
 Información adicional de datos completados por el usuario.
 
-created_at (TYPE string)
+    - created_at (TYPE string)
 
 Fecha de la respuesta.
 
-contact_data (TYPE object)
+    - contact_data (TYPE object)
 
 Información adicional del usuario.
 
-user_context (TYPE object)
+    - user_context (TYPE object)
 
 Información acerca del entorno en el que contestó el usuario
 
-questions (TYPE array)
+    - questions (TYPE array)
 
 Contiene cada pregunta con sus resultados.
 
-name (TYPE string)
+      - name (TYPE string)
 
 Nombre de la pregunta.
 
