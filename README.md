@@ -1,12 +1,12 @@
-###Api- Feedback_details
+### Api- Feedback_details
 
 GET  https://prod-api.smileweb.net/api/feedback-details
 
 Devuelve información detallada acerca del feedback recibido dentro de un periodo de tiempo, en formato JSON.
 
-##Query Params
+## Query Params
 
-#Date Parameters:
+# Date Parameters:
 timezone: (TYPE string)
 Zona horaria en la que estas. Ejemplo: “-03:00”
 Default: UTC-0
@@ -24,10 +24,10 @@ Headers:
 Authorization: (Bearer token)
 Token válido y sin expirar suministrado por el administrador de la cuenta.
 
-##Success Response:
+## Success Response:
 HTTP Status 200
 Contiene toda la información
-#votes: (TYPE object)
+# votes: (TYPE object)
 current_page: (TYPE int)
 Página que se está consultando la data.
 Data: (TYPE array)
